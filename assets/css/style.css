@@ -68,9 +68,19 @@ h2 {
 
 }
 
-#services .card {
+/* Services and games gallery */
+#services .card,
+#new-games .card,
+#fav-games .card {
     margin-bottom: 1.5rem;
 }
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+/* Games gallery */
 
 /* Grid visualization CSS */
 /* .container,
@@ -86,32 +96,37 @@ h2 {
 /* Media queries */
 /* Medium devices(tablets, 768px and up) */
 @media screen and (min-width:768px) {
+
     /* Services section */
     /* Make all services card the same height for consistency */
     #services .card-body {
-        min-height:191px;
+        min-height: 191px;
     }
 }
 
 @media screen and (min-width:992px) {
+
     /* Services section */
     /* Make all services card the same height for consistency */
     #services .card-body {
-        min-height:auto;
+        min-height: auto;
     }
 }
 
 @media screen and (min-width:1200px) {
+
     /* Services section */
     /* Make all services card the same height for consistency */
     #services .card-body {
-        min-height:220px;
+        min-height: 220px;
     }
 }
+
 @media screen and (min-width:1400px) {
+
     /* Services section */
     /* Make all services card the same height for consistency */
     #services .card-body {
-        min-height:195px;
+        min-height: 195px;
     }
 }
