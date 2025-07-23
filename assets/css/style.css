@@ -2,13 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /* CSS Variables */
-:root{
-    --primary-font: "Inter",sans-serif;
+:root {
+    --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e; /* blue */
+    --primary-color: #3a2620;
+    /* dark brown */
     --secondary-color: #aa9581;
+    /*light brown */
     --highlight-color: #416a8e;
+    /* blue */
     --light-highlight-color: #7a9fc2;
+    /* light blue */
 }
 
 /* General styles */
@@ -23,9 +27,19 @@ h3 {
     color: var(--primary-color);
 }
 
-.sub-heading-color{
+.sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
 /* Grid visualization CSS */
 /* .container,
 .row{
