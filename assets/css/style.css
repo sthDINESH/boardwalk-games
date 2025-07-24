@@ -104,6 +104,13 @@ h2 {
     border: none;
 }
 
+/* Events */
+#discounts p{
+    background-color: var(--highlight-color);
+    color: white;
+    width: 100%;
+}
+
 /* Contact */
 #contact {
     background-color: var(--primary-color);
